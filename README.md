@@ -1,6 +1,5 @@
 # mbtiles
 
-Utilities and [tilelive][1] integration for the [MBTiles][2] format.
 Simple alteration to node-mbtiles allowing for storing mbtiles in a postgres database.
 
 [![Build Status](https://travis-ci.org/mapbox/node-mbtiles.svg?branch=master)](https://travis-ci.org/mapbox/node-mbtiles)
