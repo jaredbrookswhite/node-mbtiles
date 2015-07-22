@@ -1,7 +1,7 @@
 {
     "name": "pgtiles",
     "version": "0.1.0",
-    "description": "Utilities and tilelive integration for the PGTiles format.",
+    "description": "Utilities and tilelive integration for the MBTiles format.",
     "keywords": ["map", "pgtiles"],
     "licenses": [{ "type": "BSD" }],
     "main": "./lib/pgtiles",
