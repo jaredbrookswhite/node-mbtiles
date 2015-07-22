@@ -1,5 +1,5 @@
 var tape = require('tape');
-var MBTiles = require('../lib/mbtiles.js');
+var MBTiles = require('../lib/pgtiles.js');
 var source;
 
 tape('zxystream setup', function(assert) {
