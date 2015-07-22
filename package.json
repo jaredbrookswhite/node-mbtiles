@@ -22,13 +22,7 @@
         "tiletype": "0.1.x",
         "pg":"*"
     },
-    "devDependencies": {
-        "tape": "~3.0.0"
-    },
     "engines": {
         "node": ">= 0.10.0"
-    },
-    "scripts": {
-        "test": "tape test/*.js"
     }
 }
