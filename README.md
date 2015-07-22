@@ -28,7 +28,7 @@ Simple alteration to node-mbtiles allowing for storing mbtiles in a postgres dat
             tm.pgtiles = pgtiles;
         });
 
-    //storage schema is simplified, use gettile and puttile as such
+    //storage schema is simplified, use gettile and puttile as such, m stands for map name and stores all records on a single table... optimal for speed, no, but great for simplicity.
     pgtiles.gettile(m,z,x,y,callback);
     pgtiles.puttile(m,z,x,y,callback);
 
